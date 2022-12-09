@@ -6,6 +6,8 @@
 
 #### *platandrevo@gmail.com*
 
+#### _Discord name: Sofia Pirogova(@SofiaPirogova)_
+
 ### [Write me on my telegram](https://t.me/Drevo_borch)
 
 ---
@@ -78,12 +80,17 @@ const arr = a.split(' ');
 ## **Work experience**
 
 [Our team project](https://juliazaykas.github.io/HellEn-school/)
+
 [Mine school project](https://sofiapirogova.github.io/goit-markup-hw-08/index.html)
+
+---
 
 ## **Education**
 
 Fullstack developer [GoIT](https://goit.global/ua/)
+
 Graphic Designer [Moscow Publishing and Polygraphic College n.a. Ivan Fedorov](https://mipkif.mskobr.ru/)
+
 Manager [Synergy](https://synergy.ru/)
 
 ---
