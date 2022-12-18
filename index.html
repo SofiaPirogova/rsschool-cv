@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Resume</title>
   </head>
   <body class="container">
@@ -22,30 +22,165 @@
     <main>
       <div class="container_photo">
         <div class="cover_photo">
-          <img class="my_photo" src="https://sun9-west.userapi.com/sun9-54/s/v1/ig2/3PFRDPSYwZfAioNsqvMOOc2AMkBdmnOs3SP_OK_bmKQHpVcrEHXFGXtez1ejpjaBYdtio0GNODVh2zwOztz3gFAd.jpg?size=200x250&quality=96&type=album" alt="My photo">
+          <img
+            class="my_photo"
+            src="https://sun9-west.userapi.com/sun9-54/s/v1/ig2/3PFRDPSYwZfAioNsqvMOOc2AMkBdmnOs3SP_OK_bmKQHpVcrEHXFGXtez1ejpjaBYdtio0GNODVh2zwOztz3gFAd.jpg?size=200x250&quality=96&type=album"
+            alt="My photo"
+          />
         </div>
-        <div>
-          <h1 class="my_name">Sofia Pirogova</h1>
-          <p class="my_phone">+7 910 424-02-31</p>
-          <p class="contacts">platandrevo@gmail.com</p>
-          <p class="contacts">_Discord name: Sofia Pirogova(@SofiaPirogova)_</p>
-         <a class="my_github" href="https://t.me/Drevo_borch">Write me on my telegram</a>
+        <ul>
+          <li>
+            <h1 class="my_name">Sofia Pirogova</h1>
+          </li>
+          <li class="my_phone">+7 910 424-02-31</li>
+          <li>
+            <p class="contacts">platandrevo@gmail.com</p>
+            <p class="contacts">
+              _Discord name: Sofia Pirogova(@SofiaPirogova)_
+            </p>
+          </li>
+          <li>
+            <a class="my_link" href="https://t.me/Drevo_borch"
+              >Write me on my telegram</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Hello World!</h2>
+        <p>What computer do you have? And please don't say a white one.</p>
+        <p>©The Big Bang Theory</p>
+        <p>
+          All I want this Christmas is learning (and next Year, and next, and
+          maybe also next 20 years!
+          <span class="pumpkin"
+            >After that i will grow a pumpkin field perhaps.</span
+          >). Because I admire IT-world and want be part of IT.
+        </p>
+        <h3>What should you know about me?</h3>
+        <ul>
+          <li>Not afraid to ask questions.</li>
+          <li>Have a graphic designer education.</li>
+          <li>Like to structure information.</li>
+          <li>I have been studying programming for 6 months.</li>
+          <li>I work as a copywriter and write courses for IT specialists.</li>
+        </ul>
+        <div class="secret">
+          <h3>Secret information:</h3>
+          <p>
+            I like to draw, play Dungeons & Dragons, walk a lot and read books
+            on self-development.
+          </p>
         </div>
       </div>
-      <h2>Hello World!</h2>
-      <h2 id="skills">Skills</h2>
-      <h2 id="code_example">Code example:</h2>
-      <h2 id="work_experience">Work experience</h2>
-      <h2 id="education">Education</h2>
-      <h2 id="english">English</h2>
+
+      <div>
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS/SASS</li>
+          <li>Javasript (Basic)</li>
+          <li>Git</li>
+          <li>VS Code, PyCharm</li>
+          <li>
+            Figma (+ Adobe Photoshop, Illustrator, InDesign, CorelDRAW, Avocode)
+          </li>
+          <li>Python (saw one eye, and Matplotlib, Seaborn - saw both eyes)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 id="code_example">Code example:</h2>
+        <a
+          class="my_link"
+          href="https://www.codewars.com/kata/57d1f36705c186d018000813/javascript"
+          >KATA from CODEWARS:</a
+        >
+        <pre class="code">
+           <code>
+function gordon(a){
+const arr = a.split(' ');
+	const vowels = ['e', 'i', 'o', 'u'];
+	let res = [];
+	for (const word of arr) {
+		let newWord = '';
+		for (let i = 0; i < word.length; i += 1) {
+			if (word[i] === 'a' || word[i] === 'A') {
+				newWord += '@';
+				continue;
+			}
+			if (vowels.includes(word[i].toLowerCase())) {
+				newWord += '*';
+				continue;
+			}
+			newWord += word[i].toUpperCase();
+		}
+		newWord += '!!!!';
+		res.push(newWord);
+
+	}
+	return res.join(' ');
+  }
+           </code>
+        </pre>
+      </div>
+
+      <div>
+        <h2 id="work_experience">Work experience</h2>
+        <ul>
+          <li>
+            <a
+              class="my_link"
+              href="https://juliazaykas.github.io/HellEn-school/"
+              >Our team project</a
+            >
+          </li>
+          <li>
+            <a
+              class="my_link"
+              href="https://sofiapirogova.github.io/goit-markup-hw-08/index.html"
+              >Mine school project</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="education">Education</h2>
+        <ul>
+          <li>
+            Fullstack developer
+            <a class="my_link" href="https://goit.global/ua/">GoIT</a>
+          </li>
+          <li>
+            Graphic Designer
+            <a class="my_link" href="https://mipkif.mskobr.ru/"
+              >Moscow Publishing and Polygraphic College n.a. Ivan Fedorov</a
+            >
+          </li>
+          <li>
+            Manager <a class="my_link" href="https://synergy.ru/">Synergy</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="english">English</h2>
+        <div class="secret">
+          <h3>B1-B2</h3>
+          <p>
+            I can read, I understand, but I can not speak and I work with it.
+          </p>
+        </div>
+      </div>
     </main>
     <footer class="footer">
-      
       <p>©2022 by Sofia Pirogova</p>
-      <a class="my_github" href="https://github.com/SofiaPirogova">My Github</a>
-      <a class="rs_img" href="https://rs.school/js/"> 
-        <img src="./rs_school_js.svg" alt="RS School logo" width="60px">
-      </a>  
+      <a class="my_github my_link" href="https://github.com/SofiaPirogova"
+        >My Github</a
+      >
+      <a class="rs_img" href="https://rs.school/js/">
+        <img src="./rs_school_js.svg" alt="RS School logo" width="60px" />
+      </a>
     </footer>
   </body>
 </html>

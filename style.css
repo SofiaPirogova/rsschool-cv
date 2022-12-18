@@ -9,7 +9,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-li{
+li {
   list-style-type: none;
 }
 a {
@@ -27,7 +27,7 @@ a {
 }
 
 .nav_ul li a:hover {
-color:white
+  color: white;
 }
 
 .container_photo {
@@ -50,7 +50,7 @@ color:white
 .my_name {
   font-size: 54px;
   /* text-align: center; */
-  margin-top:0px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -60,12 +60,12 @@ color:white
   font-weight: 900;
 }
 .contacts {
-  color:white;
+  color: white;
   font-size: 16px;
 }
 
-.container_photo .my_github{
-  margin-left:40%;
+.container_photo .my_github {
+  margin-left: 40%;
 }
 .footer {
   display: flex;
@@ -79,15 +79,31 @@ color:white
   padding: 10px;
 }
 .rs_img:hover {
- /* border: 4px solid white; */
- background-color: white;
+  /* border: 4px solid white; */
+  background-color: white;
 }
 
-.my_github {
+.my_link {
   display: block;
-  padding: 0 20px;
+
   color: black;
 }
-.my_github:hover{
+.my_github {
+  padding: 0 20px;
+}
+.my_link:hover {
   color: white;
+}
+.pumpkin {
+  color: rgb(156, 67, 15);
+}
+
+.secret {
+  display: flex;
+  align-items: center;
+}
+
+.code {
+  padding: 20px;
+  background-color: white;
 }
